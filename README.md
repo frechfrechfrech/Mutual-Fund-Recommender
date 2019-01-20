@@ -38,6 +38,7 @@ Using historic sales and fund characteristics to recommend relevant mutual funds
 
 ### Results
 
-
-
 ## WebApp
+![](images/flask_app_1.png)
+![](images/flask_app_2.png)
+![](images/flask_app_3.png)
