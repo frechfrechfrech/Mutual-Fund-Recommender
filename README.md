@@ -54,9 +54,11 @@ To facilitate that, I have created a flask app prototype.
 
 ### Make Selections
 Choose the firm and zip where the advisor works.
+
 <img src="images/flask_app_2.png" alt="drawing" width="1000" height="550"/>
 
 ### Results
 The recommender returns the top funds currently selling in the office as well
 as the top fund recommendations based on collaborative filtering.
+
 <img src="images/flask_app_3.png" alt="drawing" width="1000" height="550"/>
