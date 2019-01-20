@@ -50,8 +50,7 @@ financial advisors, this tool needs to be available on-the-go.
 To facilitate that, I have created a flask app prototype.
 
 ### Welcome Page
-![](images/flask_app_1.png =64x92)
-<img src="images/flask_app_1.png" alt="drawing" width="432" height="222"/>
+<img src="images/flask_app_1.png" alt="drawing" width="1000" height="600"/>
 
 ### Make Selections
 Choose the firm and zip where the advisor works.
