@@ -50,13 +50,13 @@ financial advisors, this tool needs to be available on-the-go.
 To facilitate that, I have created a flask app prototype.
 
 ### Welcome Page
-<img src="images/flask_app_1.png" alt="drawing" width="1000" height="600"/>
+<img src="images/flask_app_1.png" alt="drawing" width="1000" height="550"/>
 
 ### Make Selections
 Choose the firm and zip where the advisor works.
-![](images/flask_app_2.png =64x92)
+<img src="images/flask_app_2.png" alt="drawing" width="1000" height="550"/>
 
 ### Results
 The recommender returns the top funds currently selling in the office as well
 as the top fund recommendations based on collaborative filtering.
-![](images/flask_app_3.png =64x92)
+<img src="images/flask_app_3.png" alt="drawing" width="1000" height="550"/>
