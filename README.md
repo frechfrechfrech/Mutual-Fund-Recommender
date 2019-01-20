@@ -31,14 +31,26 @@ Using historic sales and fund characteristics to recommend relevant mutual funds
 
 
 ### Mutual Fund Recommender Components
+
 ![](images/recommender_components.png)
 
 ### Collaborative Filtering through Matrix Decomposition
 ![](images/matrix_decomp.png)
 
-### Results
+### WebApp
 
-## WebApp
+In order to be useful to mutual fund wholesalers who are pitching products to
+financial advisors, this tool needs to be available on-the-go.
+
+To facilitate that, I have created a flask app prototype.
+
+## Welcome Page
 ![](images/flask_app_1.png)
+
+## Choose the firm the advisor works for and the zip where they work.
 ![](images/flask_app_2.png)
+
+## Results
+The recommender returns the top funds currently selling in the office as well
+as the top fund recommendations based on collaborative filtering.
 ![](images/flask_app_3.png)
