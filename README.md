@@ -35,22 +35,28 @@ Using historic sales and fund characteristics to recommend relevant mutual funds
 ![](images/recommender_components.png)
 
 ### Collaborative Filtering through Matrix Decomposition
+
+This type of recommender system seeks to predict currently-unknown ratings.
+- The matrix of known ratings is decomposed with the objective of minimizing error on **known** ratings. Unknown ratings are ignored.
+- The original ratings matrix is then reconstructed and the resulting values for the unknown ratings are the rating predictions.
+
 ![](images/matrix_decomp.png)
 
-### WebApp
+## WebApp
 
 In order to be useful to mutual fund wholesalers who are pitching products to
 financial advisors, this tool needs to be available on-the-go.
 
 To facilitate that, I have created a flask app prototype.
 
-## Welcome Page
-![](images/flask_app_1.png)
+### Welcome Page
+![](images/flask_app_1.png =64x92)
 
-## Choose the firm the advisor works for and the zip where they work.
-![](images/flask_app_2.png)
+### Make Selections
+Choose the firm and zip where the advisor works.
+![](images/flask_app_2.png =64x92)
 
-## Results
+### Results
 The recommender returns the top funds currently selling in the office as well
 as the top fund recommendations based on collaborative filtering.
-![](images/flask_app_3.png)
+![](images/flask_app_3.png =64x92)
