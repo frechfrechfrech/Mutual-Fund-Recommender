@@ -51,6 +51,7 @@ To facilitate that, I have created a flask app prototype.
 
 ### Welcome Page
 ![](images/flask_app_1.png =64x92)
+<img src="images/flask_app_1.png" alt="drawing" height="64" width="92"/>
 
 ### Make Selections
 Choose the firm and zip where the advisor works.
